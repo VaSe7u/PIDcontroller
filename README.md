@@ -1,10 +1,8 @@
-*PID controller library.*
+**PID controller library.**
 
 [![release](https://img.shields.io/badge/release-0.1.0-yellow.svg)](https://github.com/VaSe7u/PIDcontroller/releases)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://opensource.org/licenses/mit-license.php)
 
-
-**PIDcontroller.**
 This library was heavily infuenced by [Arduino-PID-Library][ArduinoPID] and [this][ArduinoPID_guide] guide. The difference is that it doesn't use references (this allows the setpoint, input and output to be integers) and is Arduino independent.
 
 
@@ -18,7 +16,6 @@ Features
 ========
  - Robust.
  - Arduino independent.
- - Config object.
 
 
 Quick start
