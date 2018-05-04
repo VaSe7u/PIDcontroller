@@ -1,0 +1,44 @@
+########################################
+# Syntax Coloring Map For PIDcontroller
+########################################
+
+########################################
+# Datatypes (KEYWORD1)
+########################################
+
+# Classes
+PIDconfig						KEYWORD1
+PIDcontroller					KEYWORD1
+
+
+########################################
+# Methods and Functions (KEYWORD2)
+########################################
+
+# class PIDcontroller
+config							KEYWORD2
+calculate						KEYWORD2
+on								KEYWORD2
+off								KEYWORD2
+getState						KEYWORD2
+setP							KEYWORD2
+getP							KEYWORD2
+setI							KEYWORD2
+getI							KEYWORD2
+setD							KEYWORD2
+getD							KEYWORD2
+setDirect						KEYWORD2
+setReverse						KEYWORD2
+getDirect						KEYWORD2
+getResolution					KEYWORD2
+setUpdatePeriod					KEYWORD2
+getUpdatePeriod					KEYWORD2
+setOutputLimits					KEYWORD2
+setMaximalIntegralSums			KEYWORD2
+setRampRateLimit				KEYWORD2
+unwindIntegralSum				KEYWORD2
+
+
+########################################
+# Constants (LITERAL1)
+########################################
