@@ -25,7 +25,7 @@ PIDcontroller pid;
 pid.setP(1.0f);
 pid.setD(0.1f);
 pid.setDirect();
-pid.setUpdatePeriod(); // Needed for calculating the integral and derivative terms.
+pid.setUpdatePeriod(1000 /*us*/);
 pid.setOutputLimits(0, 255);
 pid.on();
 
@@ -33,19 +33,18 @@ byte setpoint = 3;
 float input = 0.0f;
 float output = 0.0f;
 
-...
 // measure input
-...
+// ...
 
-if (timeToCalculate) {
-  // Calculating the PID controller in regular intervals is handled by the user.
+// get setpoint
+// ...
+
+if (timeToCalculate()) { // calculating PID's output in regular intervals is handled by the user
   output = pid.calculate(setpoint, input, output);
 }
 
-...
 // set output
-// change setpoint
-...
+// ...
 ```
 
 License
